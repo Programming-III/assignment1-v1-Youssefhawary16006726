@@ -3,9 +3,20 @@
 
 #include <string>
 using namespace std;
-
-//define visitor class here
-
+class Visitor{
+private:
+string visitorname;
+int ticketsbought;
+public:
+void displayinfo();
+Visitor();
+Visitor(vname,tickets);
+~Visitor();
+void setvisitorname();
+string getvisitorname();
+void setticketsbought();
+int getticketsbought();
+};
 
 
 
