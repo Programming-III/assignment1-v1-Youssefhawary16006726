@@ -3,8 +3,24 @@
 
 #include <string>
 using namespace std;
-
-//define animal class here 
+class Animal{
+private:
+string name;
+int age;
+bool ishungry;
+public:
+void display();
+void feed();
+void setname(n);
+void setage(a);
+int getage();
+void setishungry(h);
+bool getishungry();
+string getname();
+Animal();
+Animal(n,a);
+~Animal();
+};
 
 
 
